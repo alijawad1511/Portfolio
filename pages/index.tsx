@@ -1,3 +1,4 @@
+import AboutSection from "@/components/AboutSection";
 import EmailDetail from "@/components/EmailDetail";
 import HomeSection from "@/components/HomeSection";
 import Navbar from "@/components/Navbar";
@@ -19,7 +20,7 @@ export default function Home() {
         </motion.div>
         <div className="h-[88vh] w-full mx-auto p-4">
           <HomeSection />
-          {/* About Section */}
+          <AboutSection />
           {/* Projects Section */}
           {/* Experience Section */}
           {/* Contact Section */}
