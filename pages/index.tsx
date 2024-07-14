@@ -1,5 +1,6 @@
 import AboutSection from "@/components/AboutSection";
 import EmailDetail from "@/components/EmailDetail";
+import ExperienceSection from "@/components/ExperienceSection";
 import HomeSection from "@/components/HomeSection";
 import Navbar from "@/components/Navbar";
 import SocialLinks from "@/components/SocialLinks";
@@ -22,7 +23,7 @@ export default function Home() {
           <HomeSection />
           <AboutSection />
           {/* Projects Section */}
-          {/* Experience Section */}
+          <ExperienceSection />
           {/* Contact Section */}
           {/* Footer */}
         </div>
