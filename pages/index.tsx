@@ -3,6 +3,7 @@ import EmailDetail from "@/components/EmailDetail";
 import ExperienceSection from "@/components/ExperienceSection";
 import HomeSection from "@/components/HomeSection";
 import Navbar from "@/components/Navbar";
+import ProjectSection from "@/components/ProjectSection";
 import SocialLinks from "@/components/SocialLinks";
 import { motion } from "framer-motion";
 
@@ -22,8 +23,8 @@ export default function Home() {
         <div className="h-[88vh] w-full mx-auto p-4">
           <HomeSection />
           <AboutSection />
-          {/* Projects Section */}
           <ExperienceSection />
+          <ProjectSection />
           {/* Contact Section */}
           {/* Footer */}
         </div>
