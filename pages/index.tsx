@@ -1,4 +1,5 @@
 import AboutSection from "@/components/AboutSection";
+import ArchiveProjects from "@/components/ArchiveProjects";
 import EmailDetail from "@/components/EmailDetail";
 import ExperienceSection from "@/components/ExperienceSection";
 import HomeSection from "@/components/HomeSection";
@@ -25,6 +26,7 @@ export default function Home() {
           <AboutSection />
           <ExperienceSection />
           <ProjectSection />
+          <ArchiveProjects />
           {/* Contact Section */}
           {/* Footer */}
         </div>
